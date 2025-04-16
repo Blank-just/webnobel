@@ -1,0 +1,7 @@
+.szegely{
+    border: 10px solid black;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px;
+    text-align: center;
+}
