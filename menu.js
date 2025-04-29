@@ -15,7 +15,7 @@ document.getElementById("menu").innerHTML=`
           <a class="nav-link" href="evkeres.html">Link</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="nevkeres.html">Link</a>
         </li>
       </ul>
     </div>
