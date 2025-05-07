@@ -1,3 +1,14 @@
+fetch("https://api.nobelprize.org/v1/prize.json")
+.then(x=>x.json)
+.then(y=>{
+    let vege=y.prizes[0].year
+    let sz=""
+    for (let i = vege; i >= 1901; i--) {
+        sz+=`<option>"$"</option>`
+        
+    }
+})
+
 function kereses(){
     let beev= document.getElementById("beev").value
     fetch("https://api.nobelprize.org/v1/prize.json")
